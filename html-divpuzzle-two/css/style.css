@@ -42,7 +42,7 @@
   background-color: #8c2727;
   float: left;
 }
-.practice__float-right-top-center::after{
+.clearfix::after{
   content: "";
   display: block;
   clear: both;

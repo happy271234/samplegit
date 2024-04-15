@@ -10,7 +10,7 @@
 /* .practice__flex{
   display: flex;
 } */
-.practice__flex::after{
+.clearfix::after{
   content:"";
   display: block;
   clear: both;
