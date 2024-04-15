@@ -19,16 +19,21 @@
   width: 40px;
   height: 40px;
   background-color: #a9004b;
+  float: left;
+  margin-right: 10px;
 }
 .practice-redBox__whiteBox-two{
   width: 40px;
   height: 40px;
   background-color: #a9004b;
+  float: left;
 }
 .practice-redBox__whiteBox-three{
   width: 40px;
   height: 40px;
   background-color: #a9004b;
+  float: left;
+  margin-left: 10px;
 }
 .practice-middle__greenBox{
   float: left;
@@ -52,12 +57,30 @@
   background-color: #ff863f;
   border: 5px solid #fff;
 }
-/* .practice-middle__brownBox::after{
-  content: "";
+.practice-middle__brownBox-orangeBox-two{
+  position: absolute;
+  top:100px;
+  left: 40px;
+  width: 140px;
+  height: 40px;
+  background-color: #ff863f;
+  border: 5px solid #fff;
+}
+.practice-middle__brownBox-orangeBox-three{
+  position: absolute;
+  top:160px;
+  left: 40px;
+  width: 140px;
+  height: 40px;
+  background-color: #ff863f;
+  border: 5px solid #fff;
+}
+.clearfix::after{
+  content:"";
   display: block;
   clear: both;
-} */
-.practice__yellow-box{
+}
+.practice-yellowBox{
   height: 100px;
   background-color: #ffd000;
 }
